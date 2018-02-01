@@ -1,0 +1,239 @@
+
+RESULTS 1B) RANDOM FOREST - DEMOGRAPHICS VS EXPLOITATION REGION
+
+Random Forest Train Accuracy ::  0.886922244551
+Random Forest Logistic regression Test Accuracy ::  0.885142445005
+Cross validating...
+Random Forest - train accuracy: 
+0.885621795847
+X: 
+Index([u'ageBroad_mid', u'g_Female', u'ms_Adult', u'cr_Central_Asia',
+       u'cr_East_Africa', u'cr_East_Asia', u'cr_Eastern_Europe',
+       u'cr_Middle_East', u'cr_North_America', u'cr_Northeast_Africa',
+       u'cr_South_America', u'cr_South_Asia', u'cr_Southeast_Asia',
+       u'cr_Southeastern_Europe', u'cr_West_Africa'],
+      dtype='object')
+Feature Importance: 
+[ 0.134  0.131  0.02   0.026  0.008  0.     0.257  0.012  0.022  0.003
+  0.007  0.017  0.206  0.075  0.082]
+Classes: 
+['Central_Asia' 'Central_Europe' 'East_Africa' 'East_Asia' 'Eastern_Europe'
+ 'Eurasia' 'Mediterranean' 'Middle_East' 'North_America'
+ 'Northwestern_Europe' 'South_Africa' 'South_America' 'Southeast_Asia'
+ 'Southeastern_Europe' 'Unknown' 'West_Africa']
+Average Probabilities by gender: 
+        pp_Central_Asia  pp_Central_Europe  pp_East_Africa  pp_East_Asia  \
+gender                                                                     
+Female         0.000925           0.028299        0.003131      0.006663   
+Male           0.029773           0.002326        0.005869      0.000000   
+
+        pp_Eastern_Europe  pp_Eurasia  pp_Mediterranean  pp_Middle_East  \
+gender                                                                    
+Female           0.014016    0.082172          0.002692        0.081700   
+Male             0.000000    0.381671          0.002935        0.022122   
+
+        pp_North_America  pp_Northwestern_Europe  pp_South_Africa  \
+gender                                                              
+Female          0.640683                0.000000         0.000000   
+Male            0.109707                0.003837         0.007458   
+
+        pp_South_America  pp_Southeast_Asia  pp_Southeastern_Europe  \
+gender                                                                
+Female          0.000000            0.03529                0.041033   
+Male            0.019303            0.33193                0.000000   
+
+        pp_Unknown  pp_West_Africa  
+gender                              
+Female    0.048881        0.014515  
+Male      0.000000        0.083070  
+Average Probabilites by majorityStatus: 
+                pp_Central_Asia  pp_Central_Europe  pp_East_Africa  \
+majorityStatus                                                       
+Adult                  0.010201           0.028725        0.000000   
+Minor                  0.000000           0.000000        0.016355   
+
+                pp_East_Asia  pp_Eastern_Europe  pp_Eurasia  pp_Mediterranean  \
+majorityStatus                                                                  
+Adult               0.005493           0.012613    0.195893          0.002663   
+Minor               0.003651           0.004165    0.014760          0.003037   
+
+                pp_Middle_East  pp_North_America  pp_Northwestern_Europe  \
+majorityStatus                                                             
+Adult                 0.080837          0.438117                0.001197   
+Minor                 0.022897          0.763353                0.000000   
+
+                pp_South_Africa  pp_South_America  pp_Southeast_Asia  \
+majorityStatus                                                         
+Adult                  0.002326           0.00602           0.130397   
+Minor                  0.000000           0.00000           0.026696   
+
+                pp_Southeastern_Europe  pp_Unknown  pp_West_Africa  
+majorityStatus                                                      
+Adult                         0.037714    0.047804        0.000000  
+Minor                         0.009579    0.001861        0.133645  
+Average Probabilites by ageBroad_mid: 
+              pp_Central_Asia  pp_Central_Europe  pp_East_Africa  \
+ageBroad_mid                                                       
+4.0                  0.000000           0.000000        0.200000   
+11.0                 0.000000           0.000000        0.000000   
+13.0                 0.000000           0.000000        0.007012   
+19.0                 0.006289           0.007952        0.000000   
+22.0                 0.000000           0.038155        0.000000   
+25.0                 0.008336           0.083203        0.000000   
+28.0                 0.000000           0.050400        0.000000   
+30.0                 0.000000           0.000000        0.000000   
+34.0                 0.026772           0.038567        0.000000   
+43.0                 0.034659           0.026075        0.000000   
+55.0                 0.000000           0.000000        0.000000   
+
+              pp_East_Asia  pp_Eastern_Europe  pp_Eurasia  pp_Mediterranean  \
+ageBroad_mid                                                                  
+4.0               0.000000           0.000000    0.000000          0.000000   
+11.0              0.000000           0.000000    0.000000          0.000000   
+13.0              0.004764           0.005435    0.019260          0.003963   
+19.0              0.007468           0.026131    0.158064          0.012189   
+22.0              0.000000           0.030312    0.201379          0.006688   
+25.0              0.008463           0.026472    0.175519          0.000000   
+28.0              0.026431           0.010486    0.238341          0.000000   
+30.0              0.000000           0.000000    0.000000          0.000000   
+34.0              0.007759           0.006026    0.280245          0.000000   
+43.0              0.000000           0.000000    0.405524          0.000000   
+55.0              0.000000           0.000000    0.684211          0.000000   
+
+              pp_Middle_East  pp_North_America  pp_Northwestern_Europe  \
+ageBroad_mid                                                             
+4.0                 0.000000          0.161702                0.000000   
+11.0                0.000000          0.989826                0.000000   
+13.0                0.029878          0.753694                0.000000   
+19.0                0.025414          0.479923                0.000000   
+22.0                0.068879          0.354685                0.000000   
+25.0                0.046739          0.317814                0.000000   
+28.0                0.123571          0.239173                0.000000   
+30.0                0.000000          0.988768                0.000000   
+34.0                0.186381          0.178380                0.000000   
+43.0                0.176899          0.081507                0.014899   
+55.0                0.030075          0.087719                0.000000   
+
+              pp_South_Africa  pp_South_America  pp_Southeast_Asia  \
+ageBroad_mid                                                         
+4.0                  0.000000          0.000000           0.131915   
+11.0                 0.000000          0.000000           0.000000   
+13.0                 0.000000          0.000000           0.025384   
+19.0                 0.000000          0.000000           0.078647   
+22.0                 0.007603          0.018170           0.090137   
+25.0                 0.000000          0.010781           0.152866   
+28.0                 0.000000          0.007876           0.215155   
+30.0                 0.000000          0.000000           0.000000   
+34.0                 0.006250          0.009107           0.233608   
+43.0                 0.000000          0.000000           0.260437   
+55.0                 0.000000          0.000000           0.197995   
+
+              pp_Southeastern_Europe  pp_Unknown  pp_West_Africa  
+ageBroad_mid                                                      
+4.0                         0.000000    0.000000        0.506383  
+11.0                        0.000000    0.010174        0.000000  
+13.0                        0.012500    0.000000        0.138110  
+19.0                        0.111662    0.086262        0.000000  
+22.0                        0.081230    0.102763        0.000000  
+25.0                        0.081841    0.087967        0.000000  
+28.0                        0.013101    0.075468        0.000000  
+30.0                        0.000000    0.011232        0.000000  
+34.0                        0.005635    0.021269        0.000000  
+43.0                        0.000000    0.000000        0.000000  
+55.0                        0.000000    0.000000        0.000000  
+Average Probabilites by citizenshipRegion: 
+                     pp_Central_Asia  pp_Central_Europe  pp_East_Africa  \
+citizenshipRegion                                                         
+Central_Asia                0.391007           0.000000             0.0   
+East_Africa                 0.000000           0.000000             1.0   
+East_Asia                   0.000000           0.000000             0.0   
+Eastern_Europe              0.005876           0.101244             0.0   
+Middle_East                 0.000000           0.000000             0.0   
+North_America               0.000000           0.000000             0.0   
+Northeast_Africa            0.000000           0.000000             0.0   
+South_America               0.000000           0.000000             0.0   
+South_Asia                  0.000000           0.000000             0.0   
+Southeast_Asia              0.000000           0.000000             0.0   
+Southeastern_Europe         0.000000           0.000000             0.0   
+Unknown                     0.000000           0.000000             0.0   
+West_Africa                 0.000000           0.000000             0.0   
+
+                     pp_East_Asia  pp_Eastern_Europe  pp_Eurasia  \
+citizenshipRegion                                                  
+Central_Asia             0.000000            0.00000    0.608993   
+East_Africa              0.000000            0.00000    0.000000   
+East_Asia                0.000000            0.00000    0.000000   
+Eastern_Europe           0.000000            0.04888    0.632470   
+Middle_East              0.000000            0.00000    0.000000   
+North_America            0.000000            0.00000    0.000000   
+Northeast_Africa         0.000000            0.00000    0.000000   
+South_America            0.000000            0.00000    0.000000   
+South_Asia               0.000000            0.00000    0.000000   
+Southeast_Asia           0.031048            0.00000    0.000000   
+Southeastern_Europe      0.000000            0.00000    0.000000   
+Unknown                  0.000000            0.00000    0.000000   
+West_Africa              0.000000            0.00000    0.158824   
+
+                     pp_Mediterranean  pp_Middle_East  pp_North_America  \
+citizenshipRegion                                                         
+Central_Asia                 0.000000        0.000000           0.00000   
+East_Africa                  0.000000        0.000000           0.00000   
+East_Asia                    0.000000        0.000000           0.99998   
+Eastern_Europe               0.003135        0.040181           0.00000   
+Middle_East                  0.000000        1.000000           0.00000   
+North_America                0.000000        0.000000           1.00000   
+Northeast_Africa             1.000000        0.000000           0.00000   
+South_America                0.000000        0.000000           0.00000   
+South_Asia                   0.000000        1.000000           0.00000   
+Southeast_Asia               0.000000        0.289880           0.00431   
+Southeastern_Europe          0.046571        0.000000           0.00000   
+Unknown                      0.000000        0.000000           0.98469   
+West_Africa                  0.000000        0.000000           0.00000   
+
+                     pp_Northwestern_Europe  pp_South_Africa  \
+citizenshipRegion                                              
+Central_Asia                       0.000000         0.000000   
+East_Africa                        0.000000         0.000000   
+East_Asia                          0.000000         0.000000   
+Eastern_Europe                     0.000000         0.000000   
+Middle_East                        0.000000         0.000000   
+North_America                      0.000000         0.000000   
+Northeast_Africa                   0.000000         0.000000   
+South_America                      0.000000         0.000000   
+South_Asia                         0.000000         0.000000   
+Southeast_Asia                     0.000000         0.010954   
+Southeastern_Europe                0.031423         0.000000   
+Unknown                            0.000000         0.000000   
+West_Africa                        0.000000         0.000000   
+
+                     pp_South_America  pp_Southeast_Asia  \
+citizenshipRegion                                          
+Central_Asia                 0.000000           0.000000   
+East_Africa                  0.000000           0.000000   
+East_Asia                    0.000000           0.000000   
+Eastern_Europe               0.000000           0.000000   
+Middle_East                  0.000000           0.000000   
+North_America                0.000000           0.000000   
+Northeast_Africa             0.000000           0.000000   
+South_America                0.000000           0.000000   
+South_Asia                   0.000000           0.000000   
+Southeast_Asia               0.028353           0.635455   
+Southeastern_Europe          0.000000           0.000000   
+Unknown                      0.000000           0.008139   
+West_Africa                  0.000000           0.000000   
+
+                     pp_Southeastern_Europe  pp_Unknown  pp_West_Africa  
+citizenshipRegion                                                        
+Central_Asia                       0.000000    0.000000        0.000000  
+East_Africa                        0.000000    0.000000        0.000000  
+East_Asia                          0.000000    0.000020        0.000000  
+Eastern_Europe                     0.019325    0.148888        0.000000  
+Middle_East                        0.000000    0.000000        0.000000  
+North_America                      0.000000    0.000000        0.000000  
+Northeast_Africa                   0.000000    0.000000        0.000000  
+South_America                      0.000000    1.000000        0.000000  
+South_Asia                         0.000000    0.000000        0.000000  
+Southeast_Asia                     0.000000    0.000000        0.000000  
+Southeastern_Europe                0.922006    0.000000        0.000000  
+Unknown                            0.000000    0.007171        0.000000  
+West_Africa                        0.000000    0.000000        0.841176

@@ -1,0 +1,13 @@
+,Agriculture,Aquafarming,Begging,Construction,DomesticWork,Hospitality,Manufacturing,NotSpecified,Other,Peddling,,,,,,Recall,Precision
+Agriculture,9,0,0,0,0,0,18,46,1,0,,74,,,Agriculture,12%,53%
+Aquafarming,0,0,0,0,0,0,0,25,0,0,,25,,,Aquafarming,0%,0%
+Begging,0,0,26,0,0,0,0,25,0,0,,51,,,Begging,51%,100%
+Construction,0,0,0,207,0,0,5,95,0,0,,307,,,Construction,67%,61%
+DomesticWork,0,0,0,0,34,0,0,71,1,0,,106,,,DomesticWork,32%,60%
+Hospitality,0,0,0,0,0,0,0,3,0,0,,3,,,Hospitality,0%,N/A
+Manufacturing,0,0,0,35,0,0,52,1,0,0,,88,,,Manufacturing,59%,69%
+NotSpecified,1,9,0,96,19,0,0,1174,0,0,,1299,,,Other,6%,67%
+Other,7,0,0,0,4,0,0,49,4,0,,64,,,Peddling,38%,100%
+Peddling,0,0,0,0,0,0,0,5,0,3,,8,,,,,
+,,,,,,,,,,,,,,,,,
+,17,9,26,338,57,0,75,1494,6,3,,,,,,,

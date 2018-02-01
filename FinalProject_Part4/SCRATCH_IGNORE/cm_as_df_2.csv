@@ -1,0 +1,7 @@
+,Forced Labour,Forced Marriage,Other Exploit,Sex and Labor,Sexual Exploit,,,,,Recall,Precision
+Forced Labour,1801,0,0,0,237,2038,,,Forced Labour,88%,96%
+Forced Marriage,8,0,0,0,0,8,,,Forced Marriage,0%,N/A
+Other Exploit,14,0,0,0,148,162,,,Other Exploit,0%,N/A
+Sex and Labor,0,0,0,0,5,5,,,Sex and Labor,100%,N/A
+Sexual Exploit,60,0,0,0,3273,3333,,,Sexual Exploit,98%,89%
+,1883,0,0,0,3663,,,,,,

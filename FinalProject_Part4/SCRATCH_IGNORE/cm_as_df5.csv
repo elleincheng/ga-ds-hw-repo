@@ -1,0 +1,7 @@
+,NotSpecified,Pornography,PrivateSexualServices,Prostitution,,,,,Recall,Precision
+NotSpecified,1560,0,0,472,,2032,,NotSpecified,77%,74%
+Pornography,1,0,0,8,,9,,Pornography,0%,N/A
+PrivateSexualServices,0,0,0,2,,2,,PrivateSexualServices,0%,N/A
+Prostitution,555,0,0,743,,1298,,Prostitution,57%,61%
+,,,,,,,,,,
+,2116,0,0,1225,,,,,,

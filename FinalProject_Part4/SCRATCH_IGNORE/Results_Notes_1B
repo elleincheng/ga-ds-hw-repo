@@ -1,0 +1,26 @@
+1B) RESULTS
+
+### All demo data
+Random Forest Train Accuracy ::  0.885762869068
+Random Forest Test Accuracy ::  0.886404615939
+Cross validating...
+Random Forest - train cross val score - accuracy: 
+0.880980541434
+X: 
+Index([u'ageBroad_mid', u'g_Female', u'ms_Adult', u'cr_Central_Asia',
+       u'cr_East_Africa', u'cr_East_Asia', u'cr_Eastern_Europe',
+       u'cr_Middle_East', u'cr_North_America', u'cr_Northeast_Africa',
+       u'cr_South_America', u'cr_South_Asia', u'cr_Southeast_Asia',
+       u'cr_Southeastern_Europe', u'cr_West_Africa'],
+      dtype='object')
+Feature Importance: 
+[ 0.116  0.142  0.024  0.02   
+0.009  0.     0.249  
+0.012  0.045  0.002
+  0.008  0.018  0.2    
+  0.079  0.074]
+
+  ### Observations:
+- Strongest Features: cr_Eastern_Europe (25%), cr_Southeast_Asia (20%)
+- Moderate Features: g_Female (14%), ageBroad_mid (12%)
+- 

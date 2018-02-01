@@ -1,0 +1,17 @@
+,Central_Asia,Central_Europe,East_Africa,East_Asia,Eastern_Europe,Eurasia,Mediterranean,Middle_East,North_America,Northwestern_Europe,South_Africa,South_America,Southeast_Asia,Southeastern_Europe,Unknown,West_Africa
+Central_Asia,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0
+Central_Europe,0,0,0,0,0,145,0,0,0,0,0,0,0,0,0,0
+East_Africa,0,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0
+East_Asia,0,0,0,0,0,0,0,18,0,0,0,0,9,0,0,0
+Eastern_Europe,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0
+Eurasia,0,0,0,0,0,838,0,0,0,0,0,0,0,0,0,0
+Mediterranean,0,0,0,0,0,4,4,0,0,0,0,0,0,12,0,0
+Middle_East,0,0,0,0,0,61,0,318,0,0,0,0,10,0,0,0
+North_America,0,0,0,0,0,0,0,1,2857,0,0,0,0,0,0,0
+Northwestern_Europe,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
+South_Africa,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0
+South_America,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0
+Southeast_Asia,0,0,0,0,0,0,0,55,15,0,0,0,492,0,0,0
+Southeastern_Europe,0,0,0,0,0,32,0,0,0,0,0,0,0,137,0,0
+Unknown,0,0,0,0,0,191,0,0,11,0,0,0,0,0,15,0
+West_Africa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152
